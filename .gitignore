@@ -1,0 +1,48 @@
+# --- Terraform directories ---
+# Local .terraform/ cache
+**/.terraform/*
+**/.terraform/*/*
+
+# Terraform lock file (optional, ถ้าอยากให้ทีมใช้ provider version เดียวกันให้ commit ได้)
+# .terraform.lock.hcl
+
+# --- State files ---
+*.tfstate
+*.tfstate.*
+
+# --- Crash logs ---
+crash.log
+crash.*.log
+
+# --- Plan files ---
+*.tfplan
+*.out
+
+# --- Override files ---
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# --- Sensitive variable files ---
+*.tfvars
+*.tfvars.json
+
+# --- Backup files ที่ IDE สร้าง ---
+*.backup
+*.bak
+*.swp
+
+# --- OS / Editor files ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# --- Logs ---
+*.log
+
+# --- Env specific (ถ้าใช้) ---
+.env
+.env.*

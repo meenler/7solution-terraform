@@ -1,0 +1,9 @@
+variable "cluster_name"            { type = string }
+variable "region"                  { type = string }
+variable "network"                 { type = string }
+variable "subnetwork"              { type = string }
+variable "authorized_cidrs"        { type = list(string) }
+variable "release_channel"         { type = string }
+variable "enable_private_nodes"    { type = bool }
+variable "enable_private_endpoint" { type = bool }
+variable "master_ipv4_cidr"        { type = string }
