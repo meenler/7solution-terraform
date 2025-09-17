@@ -32,7 +32,6 @@ including Network, NAT, and IAM configuration using **Terraform modules**.
 │   ├── iam/
 │   ├── nat/
 │   └── network/
-├── scripts/            # Helper scripts (deployment, destruction, etc.)
 └── README.md
 ```
 
