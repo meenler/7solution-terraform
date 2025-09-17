@@ -115,6 +115,11 @@ terraform validate
 
 # List all resources tracked in the state
 terraform state list
+
+# credentials to connect Kubernetes cluster
+gcloud container clusters get-credentials <CLUSTER_NAME> \
+  --region <REGION> \
+  --project <PROJECT_ID>
 ```
 
 ---
