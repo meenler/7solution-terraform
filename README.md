@@ -28,7 +28,7 @@ including Network, NAT, and IAM configuration using **Terraform modules**.
 │       └── versions.tf
 ├── global/             # (Optional) Global resources (DNS, org IAM, etc.)
 ├── modules/            # Reusable Terraform modules
-│   ├── gke_autopilot/
+│   ├── gke_standard/
 │   ├── iam/
 │   ├── nat/
 │   └── network/
@@ -89,7 +89,7 @@ terraform destroy -var-file=terraform.tfvars
 ## 🔑 Remote State
 Terraform state files are stored in **Google Cloud Storage (GCS)**:
 
-- Bucket: `gcp-7solution-bucket`
+- Bucket: `7solution-bucket-472509`
 - Path: `/terraform/dev/` or `/terraform/prod/`
 
 ---

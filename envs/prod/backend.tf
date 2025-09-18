@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "gcp-7solution-bucket"   # TODO: replace with your bucket name
+    bucket = "7solution-bucket-472509"   # TODO: replace with your bucket name
     prefix = "terraform/prod"
   }
 }

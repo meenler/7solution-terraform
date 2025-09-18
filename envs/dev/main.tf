@@ -15,8 +15,8 @@ module "nat" {
 }
 
 module "gke" {
-  source                  = "../../modules/gke_autopilot"
-  cluster_name            = "gke-autopilot-dev"
+  source                  = "../../modules/gke_standard"
+  cluster_name            = "gke-7solution-dev"
   region                  = var.region
   network                 = module.network.network_self_link
   subnetwork              = module.network.subnet_self_link
